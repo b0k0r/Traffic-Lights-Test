@@ -169,7 +169,10 @@ public class TrafficLights : MonoBehaviour
         int[] a;  // array for current signals
 
         lightsSignal = (TrafficLightsSignal)_value;
+
+#if UNITY_EDITOR
         Debug.Log("Traffic lights switch mode to " + lightsSignal);
+#endif
 
         switch (lightsSignal)
         {

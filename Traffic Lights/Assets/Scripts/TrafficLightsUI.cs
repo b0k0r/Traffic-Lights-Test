@@ -84,7 +84,11 @@ public class TrafficLightsUI : MonoBehaviour
         if (autoToggle.isOn)
         {
             ModePopulationDropdown();
+
+#if UNITY_EDITOR
             Debug.Log("Selecting .. Automatic control .. ");
+#endif
+
             trafficLights.AutomaticControl(true);
 
             previousSignalBtn.interactable = false;
@@ -98,7 +102,11 @@ public class TrafficLightsUI : MonoBehaviour
         if (manualToggle.isOn)
         {
             ModePopulationDropdown();
+
+#if UNITY_EDITOR
             Debug.Log("Selecting .. Manual control .. ");
+#endif
+
             trafficLights.AutomaticControl(false);
 
 
@@ -156,7 +164,9 @@ public class TrafficLightsUI : MonoBehaviour
 
         }
 
+#if UNITY_EDITOR
         Debug.Log("Selecting " + modeDropdown.options[modeDropdown.value].text + ".. mode .. ");
+#endif
     }
 
     // Start/stop work

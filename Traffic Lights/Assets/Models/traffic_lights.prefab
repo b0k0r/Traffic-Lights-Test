@@ -98,7 +98,7 @@ MonoBehaviour:
   isOn: 0
   materialOn: {fileID: 2100000, guid: 56f86fc50ea697043acbd7a20d82cf57, type: 2}
   materialOff: {fileID: 2100000, guid: 62db2f9fde1a87e409530a8a810062b6, type: 2}
-  lampObj: {fileID: 1246585267459666598}
+  lightObj: {fileID: 1246585267459666598}
 --- !u!1 &1109542192528292054
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,7 +557,7 @@ MonoBehaviour:
   isOn: 0
   materialOn: {fileID: 2100000, guid: 6881faabdeaa9604a8ea03212d34a05a, type: 2}
   materialOff: {fileID: 2100000, guid: 62db2f9fde1a87e409530a8a810062b6, type: 2}
-  lampObj: {fileID: 1246585267673929497}
+  lightObj: {fileID: 1246585267673929497}
 --- !u!1 &2129546644717103844
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,7 +711,7 @@ MonoBehaviour:
   isOn: 0
   materialOn: {fileID: 2100000, guid: ca9740a968c5d3a40ad901be73be3faf, type: 2}
   materialOff: {fileID: 2100000, guid: 62db2f9fde1a87e409530a8a810062b6, type: 2}
-  lampObj: {fileID: 1246585267160943996}
+  lightObj: {fileID: 1246585267160943996}
 --- !u!1 &7852982614257852730
 GameObject:
   m_ObjectHideFlags: 0

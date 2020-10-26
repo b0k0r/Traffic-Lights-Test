@@ -44,8 +44,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.Vignette
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.ShaderGraph.Editor.dll:
-    - UnityEditor.ShaderGraph.Drawing.MaterialGraphEditWindow
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -102,109 +100,109 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11912}
-    - Class: 114
-      Script: {instanceID: 11914}
-    - Class: 114
-      Script: {instanceID: 11916}
-    - Class: 114
-      Script: {instanceID: 11918}
-    - Class: 114
-      Script: {instanceID: 11920}
-    - Class: 114
-      Script: {instanceID: 11922}
-    - Class: 114
       Script: {instanceID: 11924}
     - Class: 114
-      Script: {instanceID: 12010}
+      Script: {instanceID: 11926}
     - Class: 114
-      Script: {instanceID: 12072}
+      Script: {instanceID: 11928}
     - Class: 114
-      Script: {instanceID: 12182}
+      Script: {instanceID: 11930}
     - Class: 114
-      Script: {instanceID: 12204}
+      Script: {instanceID: 11932}
     - Class: 114
-      Script: {instanceID: 12236}
+      Script: {instanceID: 11934}
     - Class: 114
-      Script: {instanceID: 12370}
+      Script: {instanceID: 11936}
     - Class: 114
-      Script: {instanceID: 12410}
+      Script: {instanceID: 12022}
     - Class: 114
-      Script: {instanceID: 12586}
+      Script: {instanceID: 12084}
     - Class: 114
-      Script: {instanceID: 12894}
+      Script: {instanceID: 12194}
     - Class: 114
-      Script: {instanceID: 12940}
+      Script: {instanceID: 12216}
     - Class: 114
-      Script: {instanceID: 13000}
+      Script: {instanceID: 12248}
     - Class: 114
-      Script: {instanceID: 13124}
+      Script: {instanceID: 12382}
     - Class: 114
-      Script: {instanceID: 13240}
+      Script: {instanceID: 12384}
     - Class: 114
-      Script: {instanceID: 13460}
+      Script: {instanceID: 12424}
     - Class: 114
-      Script: {instanceID: 13500}
+      Script: {instanceID: 12600}
     - Class: 114
-      Script: {instanceID: 13562}
+      Script: {instanceID: 12908}
     - Class: 114
-      Script: {instanceID: 13670}
+      Script: {instanceID: 12954}
     - Class: 114
-      Script: {instanceID: 13926}
+      Script: {instanceID: 13014}
     - Class: 114
-      Script: {instanceID: 13954}
+      Script: {instanceID: 13138}
     - Class: 114
-      Script: {instanceID: 13982}
+      Script: {instanceID: 13254}
     - Class: 114
-      Script: {instanceID: 14086}
+      Script: {instanceID: 13474}
     - Class: 114
-      Script: {instanceID: 14278}
+      Script: {instanceID: 13514}
     - Class: 114
-      Script: {instanceID: 14338}
+      Script: {instanceID: 13576}
     - Class: 114
-      Script: {instanceID: 14358}
+      Script: {instanceID: 13684}
     - Class: 114
-      Script: {instanceID: 14480}
+      Script: {instanceID: 13940}
     - Class: 114
-      Script: {instanceID: 14516}
+      Script: {instanceID: 13968}
     - Class: 114
-      Script: {instanceID: 14524}
+      Script: {instanceID: 13996}
     - Class: 114
-      Script: {instanceID: 14832}
+      Script: {instanceID: 14100}
     - Class: 114
-      Script: {instanceID: 14902}
+      Script: {instanceID: 14290}
     - Class: 114
-      Script: {instanceID: 15144}
+      Script: {instanceID: 14350}
     - Class: 114
-      Script: {instanceID: 15272}
+      Script: {instanceID: 14370}
     - Class: 114
-      Script: {instanceID: 15326}
+      Script: {instanceID: 14492}
     - Class: 114
-      Script: {instanceID: 15372}
+      Script: {instanceID: 14528}
     - Class: 114
-      Script: {instanceID: 15484}
+      Script: {instanceID: 14536}
     - Class: 114
-      Script: {instanceID: 15562}
+      Script: {instanceID: 14844}
     - Class: 114
-      Script: {instanceID: 15566}
+      Script: {instanceID: 14914}
     - Class: 114
-      Script: {instanceID: 15568}
+      Script: {instanceID: 15156}
     - Class: 114
-      Script: {instanceID: 15598}
+      Script: {instanceID: 15284}
     - Class: 114
-      Script: {instanceID: 15622}
+      Script: {instanceID: 15338}
     - Class: 114
-      Script: {instanceID: 15704}
+      Script: {instanceID: 15384}
     - Class: 114
-      Script: {instanceID: 15708}
+      Script: {instanceID: 15496}
     - Class: 114
-      Script: {instanceID: 15734}
+      Script: {instanceID: 15574}
     - Class: 114
-      Script: {instanceID: 15752}
+      Script: {instanceID: 15578}
     - Class: 114
-      Script: {instanceID: 15760}
+      Script: {instanceID: 15580}
     - Class: 114
-      Script: {instanceID: 34460}
+      Script: {instanceID: 15610}
+    - Class: 114
+      Script: {instanceID: 15634}
+    - Class: 114
+      Script: {instanceID: 15716}
+    - Class: 114
+      Script: {instanceID: 15720}
+    - Class: 114
+      Script: {instanceID: 15746}
+    - Class: 114
+      Script: {instanceID: 15764}
+    - Class: 114
+      Script: {instanceID: 15772}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -368,6 +366,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: a36c7479e35455f6708069de1b2b6d01
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TrafficLamp
   - hash:
       serializedVersion: 2
       Hash: 95e6797232b7d5831c9feb55a8582905
@@ -1034,13 +1038,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: e3fc89df0a521c67147951e58958afea
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TrafficLamp
   platform: 5
   scenePathNames:
   - Assets/Scenes/1.unity
-  playerPath: C:/Work/Traffic Lights/New Unity Project/Build/New Unity Project.exe
+  playerPath: K:/zWorksGit/Traffic-Lights-Test/Traffic Lights/Build/New Unity Project.exe

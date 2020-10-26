@@ -7,7 +7,7 @@ public class TrafficLamp : MonoBehaviour
     public Material materialOn;             // material for lamp if lamp works
     public Material materialOff;            // material for lamp if lamp not works
 
-    public GameObject loghtObj;             // light for lamp
+    public GameObject lightObj;             // light for lamp
 
     MeshRenderer meshRenderer;              // mesh renderer of this lamp
 
@@ -24,12 +24,12 @@ public class TrafficLamp : MonoBehaviour
         if (isOn)
         {
             meshRenderer.material = materialOn;
-            loghtObj.SetActive(true);
+            lightObj.SetActive(true);
         }
         else
         {
             meshRenderer.material = materialOff;
-            loghtObj.SetActive(false);
+            lightObj.SetActive(false);
         }
     }
 }
